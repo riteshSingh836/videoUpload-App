@@ -1,0 +1,70 @@
+.container {
+    padding: 20px;
+    background-color: #f7f9fc;
+  }
+  
+  .heading {
+    text-align: center;
+    color: #3498db;
+    margin-bottom: 20px;
+  }
+  
+  .userCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .userInfo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profilePic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+  }
+  
+  .username {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .videos {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .video {
+    width: 100px;
+    height: 80px;
+    border-radius: 5px;
+  }
+  
+  .viewAllButton {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .viewAllButton:hover {
+    background-color: #1d6fa5;
+  }
+  h3 {
+    padding-right: 10px;
+  }
